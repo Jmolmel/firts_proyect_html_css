@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+  height: 100vh;
+  background-image: url("imagenes/347_BALL_twitter.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav {
+  background-color: #00acee;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+li {
+  margin: 0 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+a:hover {
+  background-color: grey;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  max-width: 400px;
+  margin: 20px auto; 
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+input[type="submit"] {
+  background-color: #00acee;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: grey;
+}
+.texto-superior {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.form-group button {
+  margin-right: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.contact-container {
+  background-color: #ffcccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+  color: #990000;
+}
+.contact-info img {
+  max-width: 20%; 
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 15px; 
+}
+#navbar {
+  background-color: #00acee;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.boton {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.boton a {
+  display: block;
+  padding: 10px 15px;
+  background-color: #00acee; 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}

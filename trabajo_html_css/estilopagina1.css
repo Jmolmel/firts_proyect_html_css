@@ -1,0 +1,82 @@
+body{
+  background-image: url("./imagenes/fondobuenotwitter.jpg");
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #00acee;   
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  form{
+    font-size: 14px;
+    color: #333;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 5%;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(24, 18, 18, 0.1);
+  }
+  legend{
+    color:gray;
+    font-size:13px;
+    margin-bottom:16px;
+  }
+  fieldset{
+    border: none;
+    margin-top: 20px;
+    
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .web-link a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  .web-link a:hover {
+    text-decoration: underline;
+  }
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.centrado {
+  text-align: center;
+  width: 800px;
+  margin-bottom: 10px; 
+}
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  form {
+    padding: 8%;
+    width: 90%;
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Recogida de Firmas</title>
+  <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="pagina2.html">Inicio</a></li>
+    <li><a href="formulario.css">Formulario</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+
+<div class="highlighted-text">
+  <p>Introduzca sus datos, acepte las condiciones y envíelo si está de acuerdo con devolver la vida al Pájaro azul. <br>
+  Y recuerda... Cada firma cuenta! </p>
+</div>
+
+<div class="form-container">
+  <h2>Formulario de Recogida de Firmas</h2>
+  <form>
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <label for="dni">DNI:</label>
+      <input type="text" id="dni" name="dni" required>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required>Introduzca el motivo por el que quiere que vuelva el pájaro azul: </textarea>
+
+      <input type="checkbox">Aceptar las condiciones</=>
+
+      <button type="submit">Enviar</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
